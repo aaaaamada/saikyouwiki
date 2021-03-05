@@ -1,0 +1,54 @@
+* {
+  background-color:black;
+  color:white;
+  padding:0px 0px;
+  margin-top: 0px;
+}
+body {
+  width:100%;
+}
+  
+header {
+  height:6vw;
+  width:100%;
+}
+.header-logo {
+  height:100%;
+  float: left;
+  margin-right:4vw;
+}
+.header-contents{
+  float: left;
+}
+.header-contents a {
+  font-size:4vw;
+  padding:0px 15px;
+  transition: 1s;
+}
+.header-contents a:hover {
+  background-color: orangered;
+}
+
+.Result-Season2 {
+  margin-top: 90px;
+}
+.Result-Season2 h4 {
+  font-size: 2vw;
+  border-bottom:1px solid white ;
+}
+.battle-url-box {
+  flex: wrap;
+}
+.battle-url {
+  width:30%;
+  padding:0px;
+  margin:1.5%;
+  float:left;
+
+}
+.battle-url img {
+  width:90%;
+}
+.clear {
+  clear: both;
+}
